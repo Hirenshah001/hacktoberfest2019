@@ -14,11 +14,11 @@ class Fibonaci_With_java
         System.out.print(n1+" "+n2);
         for(int i=0;i<a;i++)
         {
-            
+            n=n1+n2;
             System.out.print(""+n);
             n1=n2;
             n2=n; 
-            n=n1+n2;
+            
             
         }   
     }
